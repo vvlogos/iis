@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+header .wrapper {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.logo {
+    text-align: center;
+}
+nav{
+	display: none;	
+}
+.title > h2 {
+    background: rgba(0, 0, 0, 0) url("h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
+}
+	}
+
+/* Iphone 5 Landscape */
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+header .wrapper {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.logo {
+    text-align: center;
+}
+nav{
+	display: none;	
+}
+.title > h2 {
+    background: rgba(0, 0, 0, 0) url("h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
+}
+	}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+header .wrapper {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.logo {
+    text-align: center;
+}
+nav{
+	display: none;	
+}
+.title > h2 {
+    background: rgba(0, 0, 0, 0) url("h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
+}
+	}
+
+/* Mobile Iphone 5 portrait (devices and browsers) */
+@media only screen and (max-width: 320px) {
+header .wrapper {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.logo {
+    text-align: center;
+}
+nav{
+	display: none;	
+}
+.title > h2 {
+    background: rgba(0, 0, 0, 0) url("images/h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
+}
+	}
