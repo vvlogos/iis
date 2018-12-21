@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style-type: none;	
+}
+img{
+	border: none;	
+}
+#template_holder {
+    background: rgba(0, 0, 0, 0) url("shared_background.gif") no-repeat scroll 0 0;
+}
+.wrapper{
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    width: 100%;
+}
+header .wrapper {
+  
+}
+.logo {
+    margin: 2.5% 0;
+}
+nav {
+    background: rgba(0, 0, 0, 0) url("nav_bg.gif") no-repeat scroll 0 0;
+    min-height: 36px;
+}
+.menu {
+    margin-left: 1%;
+}
+.menu ul {
+    overflow: hidden;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    display: block;
+    padding: 18px 64px;
+}
+.menu ul li a:hover {
+    background-color: #fff;
+    opacity: 0.2;
+}
+.title h2 {
+   background: #dc455b;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 2%;
+    text-align: center;
+}
+.img {
+    border: 1px solid green;
+	border-top: none;
+    padding-top: 2%;
+    text-align: center;
+}
+.img > img {
+    border: 2px solid green;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 99%;
+}
+.des {
+    margin-top: 1%;
+}
+.des > h2,.tabs > section > h2{
+   background: #dc455b;
+    color: #fff;
+    padding-left: 1%;
+}
+.p_content,.tabs > section  > p {
+    border: 1px solid green;
+    padding: 2%;
+}
+.tabs {
+    margin-top: 2%;
+}
+.tabs section {
+  display: none;
+  padding: 10px 0 0;
+  border-top: 4px solid #000;
+}
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+    background: rgba(0, 0, 0, 0) url("template_tabout.gif") no-repeat scroll 0 0;
+    border: 1px solid transparent;
+    color: #000;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 0 -1px;
+    padding: 0 25px;
+    text-align: center;
+}
+.tabs label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.tabs input:checked + label {
+    background: rgba(0, 0, 0, 0) url("template_tabover.gif") no-repeat scroll 0 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+.content > h2 {
+    background: #dc455b;
+    color: #fff;
+    padding-left: 1%;
+}
+.content > p {
+    border: 1px solid green;
+    padding: 1%;
+}
+footer {
+    background: rgba(0, 0, 0, 0) url("shared_footer.jpg") no-repeat scroll center top;
+    height: 110px;
+}

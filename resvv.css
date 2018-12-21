@@ -60,6 +60,6 @@ nav{
 	display: none;	
 }
 .title > h2 {
-    background: rgba(0, 0, 0, 0) url("images/h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
+    background: rgba(0, 0, 0, 0) url("h_bg.gif") no-repeat scroll 0 0 / 100% 100%;
 }
 	}
