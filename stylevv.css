@@ -125,6 +125,6 @@ nav {
     padding: 1%;
 }
 footer {
-    background: rgba(0, 0, 0, 0) url("http://www.vivianpic.com/images/shared_footer.jpg") no-repeat scroll center top;
+    background: rgba(0, 0, 0, 0) url("shared_footer.jpg") no-repeat scroll center top;
     height: 110px;
 }
